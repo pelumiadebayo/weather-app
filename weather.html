@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="nesa.css">
+    <title>Weather App!</title>
+</head>
+
+<body>
+    <div id='main'>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center first">
+                    <div>
+                        <h2>What's The Weather Like Today?</h2>
+                    </div>
+                    <div id="location"></div>
+                    <div id="temperature"></div>
+                    <div id="descripture"></div>
+                    <div id="input" class="mx-auto">
+                        <img id="search-button" src="searchicon.png" alt="searc icon">
+                        <input type="text" placeholder="search by city name">
+                    </div>
+                    <div class="view_port">
+                        <div class="polling_message">
+                            Loading, pls wait...
+                        </div>
+                        <div class="cylon_eye"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="nesa.js" type="text/JavaScript"></script>
+</body>
+
+</html>
